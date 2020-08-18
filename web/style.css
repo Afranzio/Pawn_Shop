@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.labels{
+    padding-right: 100px;
+}
+
+.main-container{
+    display: flex;
+}
+
+.main-container img{
+    width: 50vw;
+    height: 100vh;
+}
