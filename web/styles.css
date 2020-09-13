@@ -14,21 +14,20 @@
 .left{
     width: 50vw;
     height: 100vh;
-    display: flex;
-    flex-wrap: wrap;
     border: 1px solid black;
-    justify-content: center;
-}
-
-.left img{
-    width:500px;
-    height: 350px;
-}
-
-.right{
+    text-align: center;
     align-self: center;
 }
 
+.right{
+    text-align: center;
+    align-self: center;
+}
+
+.form-inline{
+    display: flex;
+    flex-direction: column;
+}
 
 button{
     text-decoration: none;

@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.landing{
+    text-align: center;
+    align-self: center;
+    margin-top: 40vh;
+}
+
+
+.landing a{
+    text-decoration: none;
+    background-color: black;
+    color: whitesmoke;
+    padding: 0.5em 1em;
+    margin: 0 1em;
+    border-radius: 50px;
+}
