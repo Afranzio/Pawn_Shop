@@ -1,6 +1,8 @@
 *{
     margin: 0;
     padding: 0;
+    text-align: center;
+    justify-content: center;
 }
 
 .labels{
@@ -13,8 +15,8 @@
 
 .left{
     width: 50vw;
-    height: 100vh;
-    border: 1px solid black;
+    height: 75vh;
+    border-right: 1px solid black;
     text-align: center;
     align-self: center;
 }
@@ -22,6 +24,7 @@
 .right{
     text-align: center;
     align-self: center;
+    width: 50vw;
 }
 
 .form-inline{
@@ -43,3 +46,17 @@ button:focus{
     border: none;
 }
 
+a{
+    text-decoration: none;
+    background-color: black;
+    color: whitesmoke;
+    padding: 0.5em 2em;
+    font-size: 1.2em;
+    margin: 1em;
+    border-radius: 50px;
+}
+
+a:hover{
+    color: whitesmoke;
+    text-decoration: none;
+}

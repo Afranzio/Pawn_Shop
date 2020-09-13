@@ -1,22 +1,21 @@
 *{
     margin: 0;
     padding: 0;
-}
-
-.labels{
-    padding-right: 100px;
+    text-align: center;
+    justify-content: center;
 }
 
 .main-container{
     display: flex;
+    margin: 3vw 0rem;
 }
 
 .left{
     width: 50vw;
-    height: 100vh;
+    height: 75vh;
     display: flex;
     flex-wrap: wrap;
-    border: 1px solid black;
+    border-right: 1px solid black;
     justify-content: center;
 }
 
@@ -26,9 +25,13 @@
 }
 
 .right{
+    width: 50vw;
     align-self: center;
 }
 
+.form-control{
+    margin: 0.5em;
+}
 
 button{
     text-decoration: none;
@@ -44,3 +47,17 @@ button:focus{
     border: none;
 }
 
+a{  
+    text-decoration: none;
+    background-color: black;
+    color: whitesmoke;
+    padding: 0.5em 2em;
+    font-size: 1.2em;
+    margin: 1em;
+    border-radius: 50px;
+}
+
+a:hover{
+    color: whitesmoke;
+    text-decoration: none;
+}
