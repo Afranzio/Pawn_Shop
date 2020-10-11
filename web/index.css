@@ -10,7 +10,7 @@
 }
 
 
-.landing a{
+.landing a , a{
     text-decoration: none;
     background-color: black;
     color: whitesmoke;

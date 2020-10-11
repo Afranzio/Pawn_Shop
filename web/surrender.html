@@ -5,14 +5,17 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="/eel.js"></script>
+    <script src="./main.js"></script>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="index.css">
     <title>Pawn-Broker</title>
 </head>
 <body>
     <div class="main-container">
         <div class="left">
-            <button>Upload jewellery set</button>
-            <button>Upload Document</button>
+            <button onClick="jewel()" >Upload jewellery set</button>
+            <button onClick="doc()" >Upload Document</button>
         </div>
         <div class="right">
             <h1>
@@ -35,9 +38,18 @@
                     <input class="form-control" type="text" placeholder="Mobile Number" id="mobile">
                 </div><br>
                 <div class="one">
+                    <input class="form-control" type="text" placeholder="S/O W/O D/O" id="S/O W/O D/O">
+                </div><br>
+                <div class="one">
+                    <input class="form-control" type="text" placeholder="Pledged Date" id="Pledged Date">
+                </div><br>
+                <div class="one">
+                    <input class="form-control" type="text" placeholder="Weight" id="weight">
+                </div><br>
+                <div class="one">
                     <select class="form-control" placeholder="Item-Type" id="item-type">
-                        <option value="G">Gold</option>
-                        <option value="S">Silver</option>
+                        <option value="G">G</option>
+                        <option value="S">S</option>
                     </select>
                 </div><br>
                 <div class="one">
@@ -61,9 +73,9 @@
                     <input class="form-control" type="text" placeholder="Amount" id="amount">
                 </div><br>
             </form>
-            <button>Search</button>
+            <button onclick="surrender()">Sumbit</button>
+            <a href="./index.html">Home</a>
         </div>
     </div>
-    <a href="./index.html">Back</a>
 </body>
 </html>

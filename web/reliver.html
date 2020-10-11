@@ -1,32 +1,29 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="style.css">
+    <script src="/eel.js"></script>
+    <script src="./main.js"></script>
     <title>Pawn-Broker</title>
-
 </head>
 <body>
     <div class="main-container">
         <div class="left">
             <img src="./Asset/Screenshot (30).png" alt="">
+            <ul id="output"></ul>
         </div>
         <div class="right">
             <h1>Redemption Form</h1>
-            <form class="form-inline">
-                <div class="one">
-                    <input class="form-control" placeholder="Name" type="text" name="name" id="name"><br>
-                </div>
-                <div class="one">
-                    <input class="form-control" placeholder="Number" type="text" name="number" id="number"><br>
-                </div>
-            </form>
-            <button>Search</button>
+            <form>
+                <input class="form-control" placeholder="Name" type="text" name="name" id="name"><br>
+                <input class="form-control" placeholder="Number" type="text" name="number" id="number"><br>
+            </form><br/>
+            <button onclick="reliver()">Search</button>
         </div>
     </div>
-    <a href="./index.html">Back</a>
 </body>
 </html>
